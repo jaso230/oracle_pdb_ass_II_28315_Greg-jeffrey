@@ -5,7 +5,7 @@ Name: Jeffrey
 Student ID: 28315
 
 ## Oracle Environment
-Oracle Database 19c
+Oracle Database 21c
 SQL*Plus
 Oracle Enterprise Manager (OEM)
 
