@@ -1,7 +1,7 @@
 # Oracle Pluggable Database Assignment II
 
 ## Student Information
-Name: Jeffrey
+Name: Greg Jeffrey AWASSI 
 Student ID: 28315
 
 ## Oracle Environment
