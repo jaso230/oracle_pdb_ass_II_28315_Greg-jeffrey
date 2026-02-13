@@ -10,12 +10,12 @@ SQL*Plus
 Oracle Enterprise Manager (OEM)
 
 ## Task 1: Create a PDB
-Created PDB: je_pdb_2024101
-Created user: jeffrey_plsqlauca_2024101
+Created PDB: je_pdb_28315
+Created user: jeffrey_plsqlauca_28315
 The PDB was opened successfully in READ WRITE mode.
 
 ## Task 2: Create and Delete a Temporary PDB
-Temporary PDB: je_to_delete_pdb_2024101
+Temporary PDB: je_to_delete_pdb_28315
 The PDB was successfully created, verified, and deleted completely.
 
 ## Task 3: Oracle Enterprise Manager
