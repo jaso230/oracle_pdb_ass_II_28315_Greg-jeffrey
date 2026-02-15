@@ -4,9 +4,8 @@
 
 | Field | Information |
 |-------|------------|
-| Name | AWASSI Greg Jeffrey |
+| Name | Jeffrey Greg AWASSI |
 | Student ID | 28315 |
-| Program | Computer Science |
 | Database Version | Oracle 21c |
 
 ---
