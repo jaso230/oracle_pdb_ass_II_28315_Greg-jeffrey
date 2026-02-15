@@ -36,21 +36,21 @@ sqlplus / as sysdba
 
 SHOW CON_NAME;
 
-CREATE PLUGGABLE DATABASE je_pdb_2024101
+CREATE PLUGGABLE DATABASE je_pdb_28315
 ADMIN USER pdbadmin IDENTIFIED BY 1234
-FILE_NAME_CONVERT = ('pdbseed','je_pdb_2024101');
+FILE_NAME_CONVERT = ('pdbseed','je_pdb_28315');
 
 ALTER PLUGGABLE DATABASE je_pdb_2024101 OPEN;
 
 SELECT name, open_mode FROM v$pdbs;
 
-ALTER SESSION SET CONTAINER = je_pdb_2024101;
+ALTER SESSION SET CONTAINER = je_pdb_28315;
 
 SHOW CON_NAME;
 
-CREATE USER jeffrey_plsqlauca_2024101 IDENTIFIED BY 1234;
+CREATE USER jeffrey_plsqlauca_28315 IDENTIFIED BY 1234;
 
-GRANT CONNECT, RESOURCE TO jeffrey_plsqlauca_2024101;
+GRANT CONNECT, RESOURCE TO jeffrey_plsqlauca_28315;
 
 SELECT username FROM dba_users;
 ```
@@ -70,15 +70,15 @@ SELECT username FROM dba_users;
 ## Commands Used
 
 ```sql
-CREATE PLUGGABLE DATABASE je_to_delete_pdb_2024101
+CREATE PLUGGABLE DATABASE je_to_delete_pdb_28315
 ADMIN USER pdbadmin IDENTIFIED BY 1234
-FILE_NAME_CONVERT = ('pdbseed','je_to_delete_pdb_2024101');
+FILE_NAME_CONVERT = ('pdbseed','je_to_delete_pdb_28315');
 
 SELECT name FROM v$pdbs;
 
-ALTER PLUGGABLE DATABASE je_to_delete_pdb_2024101 CLOSE IMMEDIATE;
+ALTER PLUGGABLE DATABASE je_to_delete_pdb_28315 CLOSE IMMEDIATE;
 
-DROP PLUGGABLE DATABASE je_to_delete_pdb_2024101 INCLUDING DATAFILES;
+DROP PLUGGABLE DATABASE je_to_delete_pdb_28315 INCLUDING DATAFILES;
 
 SELECT name FROM v$pdbs;
 ```
@@ -147,16 +147,7 @@ Required screenshots:
 I confirm that this assignment was completed independently and reflects my own work. All commands were executed and tested in my Oracle environment.
 
 ---
-oracle_pdb_ass_II_2024101_jeffrey
-│
-├── README.md
-└── screenshots/
-    ├── pdb_creation.png
-    ├── pdb_open.png
-    ├── user_created.png
-    ├── temp_pdb_created.png
-    ├── temp_pdb_deleted.png
-    └── oem_dashboard.png
+
 
 **Author:** AWASSI Greg Jeffrey  
 **Student ID:** 28315
