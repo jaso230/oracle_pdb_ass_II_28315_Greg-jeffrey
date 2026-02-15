@@ -5,7 +5,7 @@
 | Field | Information |
 |-------|------------|
 | Name | AWASSI Greg Jeffrey |
-| Student ID | 2024101 |
+| Student ID | 28315 |
 | Program | Computer Science |
 | Database Version | Oracle 21c |
 
@@ -23,9 +23,9 @@ This assignment demonstrates the creation, management, and deletion of Pluggable
 
 | Item | Value |
 |------|-------|
-| PDB Name | je_pdb_2024101 |
+| PDB Name | je_pdb_28315 |
 | Admin User | pdbadmin |
-| Application User | jeffrey_plsqlauca_2024101 |
+| Application User | jeffrey_plsqlauca_28315 |
 | Password | 1234 |
 | Status | READ WRITE |
 
@@ -147,9 +147,19 @@ Required screenshots:
 I confirm that this assignment was completed independently and reflects my own work. All commands were executed and tested in my Oracle environment.
 
 ---
+oracle_pdb_ass_II_2024101_jeffrey
+│
+├── README.md
+└── screenshots/
+    ├── pdb_creation.png
+    ├── pdb_open.png
+    ├── user_created.png
+    ├── temp_pdb_created.png
+    ├── temp_pdb_deleted.png
+    └── oem_dashboard.png
 
 **Author:** AWASSI Greg Jeffrey  
-**Student ID:** 2024101
+**Student ID:** 28315
 
 
 
